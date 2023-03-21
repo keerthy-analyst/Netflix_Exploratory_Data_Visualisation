@@ -1,12 +1,14 @@
 EDA ON NETFLIX DATA:
 
 Install necessary libraries required for the project:
-'''Seaborn
+``` python
+Seaborn
 Matplotlib
 Wordcloud
 Scikit-learn
 Mlxtend
-termcolor'''
+termcolor
+```
 
 ABOUT THE PROJECT:
 Introduction:
@@ -43,6 +45,7 @@ The seaborn and matplotlib libraries were used to create various visualizations 
 Some of the plots created include bar charts, pie charts, countplots, and boxplots.
 
 Algorithm Used:
+```python
 Naive Bayes Classifiers Algorithm:
 The Naive Bayes algorithm is a classification algorithm that is based on Bayes' theorem,
 which states that the probability of an event occurring given some prior knowledge about the conditions related to the event.
@@ -51,12 +54,14 @@ In the Netflix EDA project, the Naive Bayes algorithm was used to classify movie
 The ratings were classified as either "good" or "bad" based on a threshold value.
 The algorithm was trained on a subset of the dataset, and then used to predict the rating of the remaining data.
 The accuracy of the algorithm was then evaluated using various metrics, such as accuracy, precision, recall, and F1 score.
-
+```
+```python
 K-Nearest Neighbor(KNN) Algorithm:
 The K-Nearest Neighbor (KNN) algorithm is a classification algorithm that works by identifying the K closest training 
 examples in the feature space and assigning the class label based on the majority vote of their neighbors. 
 The value of K is a hyperparameter that can be tuned to improve the performance of the algorithm.
-
+```
+```python
 Apriori Algorithm:
 The Apriori algorithm is an unsupervised machine learning algorithm used for mining frequent itemsets and association rules. 
 It works by generating candidate itemsets of increasing size based on the support threshold, and then pruning itemsets that 
@@ -66,7 +71,7 @@ In the Netflix EDA project, the Apriori algorithm was used to find frequent item
 This was done by setting a minimum support threshold and mining the dataset for itemsets that meet the requirement.
 The resulting frequent itemsets were then used to generate association rules that can be used to gain insights into the relationships 
 between genres and countries.
-
+```
 
 Conclusion:
 The Netflix EDA project provided insights into the movies and TV shows on Netflix. 
